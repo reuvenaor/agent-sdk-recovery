@@ -1,15 +1,21 @@
 {
   "name": "agent-sdk-recovery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Recover a structured result from an agent session: its structured_output, then the StructuredOutput inputs the CLI rejected, then the JSON in its result text and its assistant texts.",
   "keywords": [
     "claude",
     "claude-agent-sdk",
+    "claude-code",
+    "anthropic",
+    "agent",
+    "ai-agent",
     "structured-output",
     "json",
+    "json-repair",
     "recovery",
     "standard-schema",
+    "zod",
     "llm"
   ],
   "author": {

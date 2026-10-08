@@ -7,6 +7,13 @@ break the API.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-08
+
+### Changed
+
+- More npm keywords (`claude-code`, `anthropic`, `agent`, `ai-agent`, `json-repair`, `zod`), so
+  npm search finds the package. No code change.
+
 ## [0.1.0] - 2026-10-07
 
 First release.
@@ -27,5 +34,6 @@ First release.
     with no top-level `await` that way. `attw` still reports "ESM (dynamic import only)" for a
     CommonJS caller: its TypeScript version predates this Node feature.
 
-[Unreleased]: https://github.com/reuvenaor/agent-sdk-recovery/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/reuvenaor/agent-sdk-recovery/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/reuvenaor/agent-sdk-recovery/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/reuvenaor/agent-sdk-recovery/releases/tag/v0.1.0
